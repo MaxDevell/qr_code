@@ -1,0 +1,41 @@
+html, body {
+    height: 100%;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+    background-color: #D5E1EF;
+
+}
+.container {
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr__wrapper {
+    max-width: 320px;
+    min-width: 320px;
+    padding: 16px 16px 40px 16px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.qr__image {
+    width: 100%;
+}
+
+.qr__title {
+    margin-top: 24px;
+    font-weight: bold;
+    color: #1F314F;
+    font-size: 22px;
+    filter: drop-shadow(0 5px 3px rgba(0, 0, 0, 0.5));
+    -webkit-text-stroke: 1px;
+}
+
+.qr__description {
+    font-size: 15px;
+    color: #D9D9D9;
+    font-weight: 400;
+}
